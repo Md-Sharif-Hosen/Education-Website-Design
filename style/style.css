@@ -1,7 +1,215 @@
 .container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 992px;
+    margin: auto;
+    background-color: antiquewhite;
 }
 .container .logo{
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 150px;
+    height: 70px;
+}
+.container .logo img{
+    width: 100%;
+    height: 100%;
+}
+.container .nav_menubar{
+    /* border: 1px solid; */
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+   
+   
+
+   
+}
+.container .nav_menubar ul{
+    display: inline-block;
+}
+.container .nav_menubar ul li{
+    display: inline-block;
+   
+
+}
+.container .nav_menubar ul li a{
+    /* border: 1px solid; */
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 15px;
+    padding: 10px 15px; 
+    color: black;
+    font-family: sans-serif;
+    transition-duration: .3s;
+}
+.container .nav_menubar ul li a:hover{
+    color: rgba(14, 84, 189, 0.833);
+}
+.container .nav_login{
+    /* border: 1px solid; */
+    display: inline-block;
+    width: 325px ;
+    vertical-align: top;
+    text-align: right;
+    margin-top: 10px;
+   
+}
+.container .nav_login ul
+{
+    display: inline-block;
+   
+}
+.container .nav_login ul li{
+    display: inline-block;
     
+}
+.container .nav_login ul li a{
+   /* border: 1px solid; */
+    text-decoration: none;
+   list-style-type: none;
+   padding: 5px;   
+   color: black;
+   font-family: sans-serif;
+   transition-delay: .3s;
+}
+.container .nav_login ul li a:hover{
+    
+   color: rgba(14, 84, 189, 0.833);
+   
+}
+.bannar1{
+    /* border: 1px solid red; */
+    width: 992px;
+    margin: auto;
+    position: relative;
+    
+}
+.bannar1 .bannar1_image{
+    
+     display: inline-block;
+     width: 40%;
+     height: 350px;
+     margin-top: 30px;
+     
+}
+.bannar1 .bannar1_image .img{
+    
+    position: absolute;
+    display: inline-block;
+    height: 400px;
+    width: 40%;
+    z-index: 9999;
+}
+.bannar1 .bannar1_image .bg{
+    position: absolute;
+    height: 400px;
+    width: 40%;
+   top: 180px;
+   left:40px
+
+
+
+}
+.bannar1 .bannar1_heading{
+    width: 50%;
+   display: inline-block;
+   vertical-align: top;
+  margin-left: 70px; 
+ margin-top: 40px;
+   
+}
+.bannar1 .bannar1_heading h1{
+   
+      font-family: sans-serif;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 59px;
+      color: rgb(43, 113, 212);
+}
+.bannar1 .bannar1_heading h6{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.bannar1 .bannar1_service
+{
+    /* border: 1px solid; */
+    position: absolute;
+    display: inline-block;
+    width: 600px;
+    height: 150px;
+    
+    z-index: 999999;
+    left: 280px;
+    top: 380px;
+    
+}
+.bannar1 .bannar1_service .part1{
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 140px;
+    height: 100%;
+    background-color: rgba(26, 208, 202, 0.84);
+}
+.bannar1 .bannar1_service .part2{
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 145px;
+    height: 100%;
+    background-color: rgb(227, 165, 30);
+}
+.bannar1 .bannar1_service .part3{
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 145px;
+    height: 100%;
+    background-color: rgb(179, 50, 186);
+}
+.bannar1 .bannar1_service .part4{
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 145px;
+    height: 100%;
+    background-color:rgb(43, 113, 212);
+}
+.bannar1 .bannar1_service  h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.kid_loved{
+    border: 1px solid red;
+    width: 992px;
+    margin: auto;
+    margin-top: 250px;
+    background-color:rgb(41, 236, 246) ;
+
+    
+    
+}
+.kid_loved .heading{
+
+}
+.kid_loved .content
+{
+   
+   
+    
+}
+.kid_loved .content .content1
+{
+    display: inline-block;
+    border-top: 2px solid;
+    width: 150px;
+    vertical-align: top;
+    margin-left: 30px;
+    color: white;
+}
+.kid_loved .content .content2{
+ display: inline-block;
+ border: 1px solid;
+ width: 70%;
 }
