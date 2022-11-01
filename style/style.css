@@ -146,6 +146,9 @@
     top: 380px;
     
 }
+.bannar1 .bannar1_service h2 i{
+    font-size: 40px;
+}
 .bannar1 .bannar1_service .part1{
     /* border: 1px solid red; */
     display: inline-block;
@@ -181,35 +184,43 @@
     
 }
 .kid_loved{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 992px;
     margin: auto;
     margin-top: 250px;
     background-color:rgb(41, 236, 246) ;
-
-    
-    
+     padding: 30px 30px;
 }
 .kid_loved .heading{
-
+    
+        font-family: sans-serif;
+        margin-left: 30px;
+        font-size: 20px;
+        text-transform: capitalize;
 }
 .kid_loved .content
 {
-   
-   
-    
+ margin-top: 10px;   
 }
 .kid_loved .content .content1
 {
     display: inline-block;
-    border-top: 2px solid;
+    border-top: 3px solid;
     width: 150px;
     vertical-align: top;
     margin-left: 30px;
-    color: white;
+    margin-top: 30px;
+    background: #3CCFBB;
 }
 .kid_loved .content .content2{
  display: inline-block;
- border: 1px solid;
+ /* border: 1px solid; */
  width: 70%;
+ font-family: sans-serif;
+ margin-left: 10px;
+ font-size: 18px;
+line-height: 1fr;
+}
+.kid_loved .content .content2 p{
+    line-height: 28px;
 }
