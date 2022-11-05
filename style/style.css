@@ -391,7 +391,7 @@ i{
 }
 .section2{
     /* border: 1px solid red; */
-    background-color: #a1a310cb;
+    background-color: #c4a105cb;
     width: 992px;
     height: auto;
     margin: auto;
@@ -512,3 +512,9 @@ i{
    line-height: 26px;
 }
  */
+
+ .section3{
+    border: 1px solid red;
+    width: 992px;
+    margin: auto;
+ }
