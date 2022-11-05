@@ -590,4 +590,44 @@ background: linear-gradient(90deg, rgba(219,172,16,1) 0%, rgba(194,79,166,0.7874
     text-transform: uppercase;
     color: rgba(175, 79, 15, 0.89); 
  }
- 
+ .section4{
+    border: 1px solid red;
+    width: 992px;
+    margin: auto;
+    background-color: #0868b8e3;
+
+ }
+ .section4 h1{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 600px;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 18px;
+
+ }
+ .section4 .section4_content1{
+    width: 45%;
+    /* border: 1px solid red; */
+    display: inline-block;
+    font-family: sans-serif;
+    line-height: 36px;
+    font-size: 18px;
+    margin: 20px 20px;
+    color: azure;
+    text-justify: auto;
+    margin-bottom: 40px;
+ }
+ .section4 .section4_content2{
+    width: 45%;
+    /* border: 1px solid red; */
+    display: inline-block;
+    font-family: sans-serif;
+    line-height: 36px;
+    font-size: 18px;
+    margin: 20px 20px;
+    color: azure;
+    text-justify: auto;
+   
+ }
