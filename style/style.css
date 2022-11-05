@@ -676,3 +676,27 @@ background: linear-gradient(90deg, rgba(219,172,16,1) 0%, rgba(194,79,166,0.7874
     color: white;
     font-size: 40px;
  }
+ .section6{
+    border: 1px solid red;
+    width: 992px;
+    margin: auto;
+    background-color: rgb(184, 36, 176);
+ }
+ .section6 .content{
+    /* border: 1px solid red; */
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 50px 0px;
+    margin-left: 75px;
+    color: white;
+    font-family: sans-serif;
+ }
+ .section6 .address{
+    text-align: center;
+  margin-bottom: 30px;
+ }
+ .section6 .address i{
+    font-size: 30px;
+    padding: 10px 15px;
+    color: rgb(201, 194, 181);
+ }
